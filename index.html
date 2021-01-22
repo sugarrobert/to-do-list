@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="feedback">
+        <h1>Write Value For Item</h1>
+      </div>
+      <form class="item-form" id="item-form">
+        <h2>To Do List</h2>
+        <div class="input-container">
+          <input
+            type="text"
+            placeholder="Name..."
+            class="item-input"
+            id="item-input"
+          />
+          <button type="submit" class="btn submit-item-btn">Add Item</button>
+        </div>
+      </form>
+      <!-- form end -->
+      <div class="item-container" id="item-container">
+        <div class="single-item" id="single-item">
+          <h5 class="item-name" id="item-name">walk dog</h5>
+          <div class="item-icons">
+            <a href="#" class="complete-item">
+              <i class="far fa-check-circle"></i>
+            </a>
+            <a href="#" class="edit-item">
+              <i class="far fa-edit"></i>
+            </a>
+            <a href="#" class="delete-item">
+              <i class="far fa-trash-alt"></i>
+            </a>
+          </div>
+        </div>
+        <!-- sigle item end -->
+        <div class="single-item" id="single-item">
+          <h5 class="item-name" id="item-name">take trash out</h5>
+          <div class="item-icons">
+            <a href="#" class="complete-item">
+              <i class="far fa-check-circle"></i>
+            </a>
+            <a href="#" class="edit-item">
+              <i class="far fa-edit"></i>
+            </a>
+            <a href="#" class="delete-item">
+              <i class="far fa-trash-alt"></i>
+            </a>
+          </div>
+        </div>
+        <!-- sigle item end -->
+        <div class="single-item" id="single-item">
+          <h5 class="item-name" id="item-name">laundry</h5>
+          <div class="item-icons">
+            <a href="#" class="complete-item">
+              <i class="far fa-check-circle"></i>
+            </a>
+            <a href="#" class="edit-item">
+              <i class="far fa-edit"></i>
+            </a>
+            <a href="#" class="delete-item">
+              <i class="far fa-trash-alt"></i>
+            </a>
+          </div>
+        </div>
+        <!-- sigle item end -->
+        <button type="button" class="btn clear-items-btn" id="clear-items-btn">
+          Clear Items
+        </button>
+        <!-- container end -->
+      </div>
+      <!-- item container end -->
+    </div>
+    <!-- container end -->
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
