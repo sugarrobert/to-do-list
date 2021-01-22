@@ -78,6 +78,7 @@ input:focus {
   width: 100%;
 
   input {
+    font-size: 16px;
     padding: 10px;
     width: 80%;
     border: 1px solid $color-main-green;
@@ -96,7 +97,7 @@ input:focus {
 
 .btn {
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
   color: $color-main-green;
   padding: 10px 15px;
   border: 1px solid $color-main-green;
@@ -154,6 +155,19 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 @media (max-width: 500px) {
